@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>jet</title>
+</head>
+<body>
+    <div class="container">
+        <div class="first">
+            <fieldset>
+                <p>
+                    Profile Information
+                </p>
+                <h6>Update your account profile Information and update your email address</h6>
+                <form action="">
+                    <label for="name">Name</label><br>
+                    <input type="text" placeholder="name" id="name" name="name" value="name"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="email" id="email" name="email" value="email"><br><br>
+                    <button class="btn">save</button>
+                </form>
+
+            </fieldset>
+        </div>
+        <div class="second">
+            <fieldset>
+            <p>Update Password</p>
+            <h6>Ensure your account is using a long , random password to stay secure</h6>
+            <form action="">
+                <label for="currentpass">Current Password</label><br>
+                <input type="password" id="password" name="currentpass" value="password"><br>
+                <label for="newpass">New Password</label><br>
+                <input type="password" id="password" name="newpass" value="password"><br>
+                <label for="confirmpass">Confirm Password</label><br>
+                <input type="password" id="password" name="confirmpass" value="password"><br>
+                <button class="btn">save</button>
+            </form>
+        </fieldset>
+        </div>
+        <div class="third">
+            <fieldset>
+            <p>Delete Account</p>
+            <h6>Once your account is deleted, all of its resoirces and data will be permanently deleted. <br>
+            Before deleting your account, please download any data or information that you wish to retain</h6>
+            <button class="delete">delete account</button>
+        </fieldset>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
